@@ -1,0 +1,27 @@
+[
+  {
+    "assessment_id": "17175",
+    "status": "failed",
+    "error": "Gemini extraction failed"
+  },
+  {
+    "assessment_id": "17176",
+    "status": "failed",
+    "error": "Gemini extraction failed"
+  },
+  {
+    "assessment_id": "17181",
+    "status": "failed",
+    "error": "Gemini extraction failed"
+  },
+  {
+    "assessment_id": "17180",
+    "status": "failed",
+    "error": "Gemini extraction failed"
+  },
+  {
+    "assessment_id": "17023",
+    "status": "failed",
+    "error": "Gemini extraction failed"
+  }
+]

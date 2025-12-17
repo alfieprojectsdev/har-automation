@@ -1,0 +1,17 @@
+EARTHQUAKE HAZARD ASSESSMENT
+
+All hazard assessments are based on the latest available hazard maps and on the location indicated in the vicinity map provided.
+
+EXPLANATION AND RECOMMENDATION
+
+1. Ground Rupture: Safe; Approximately 17.3 kilometers east of the East Zambales Fault. Ground rupture hazard assessment is the distance to the nearest known active fault. The recommended buffer zone, or Zone of Avoidance, against ground rupture hazard is at least 5 meters on both sides of the active fault or from its zone of deformation.
+
+2. Ground Shaking and Liquefaction: All sites may be affected by strong ground shaking. Highly Susceptible. Ground shaking and liquefaction hazards can be mitigated by following the provisions of the National Building Code and the Structural Code of the Philippines.
+
+3. Earthquake-Induced Landslide: Safe. Avoidance is recommended for sites with earthquake-induced landslide hazard unless appropriate engineering interventions are in place.
+
+4. Tsunami: Safe. Tsunami threat to people's lives can be addressed by community preparedness and tsunami evacuation plan. Advice for tsunami evacuation comes from public agencies and local governments. But more importantly, coastal communities must learn to evacuate themselves when they recognize the three natural signs of tsunami, namely 1) strong ground shaking, 2) unusual rise or fall of sea level, and 3) strong or unusual sound coming from the sea.
+
+This assessment supersedes all previous reports issued for this site.
+
+For more information on geohazards in the Philippines, please visit HazardHunterPH (https://hazardhunter.georisk.gov.ph/) and GeoAnalyticsPH (https://geoanalytics.georisk.gov.ph/).
