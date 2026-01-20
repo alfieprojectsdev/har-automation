@@ -3,6 +3,11 @@
 # Core dependencies
 pyperclip>=1.8.0       # Clipboard operations (for parse_from_clipboard)
 
+# Web application dependencies
+flask>=3.0.0           # Web framework
+flask-wtf>=1.2.0       # CSRF protection
+gunicorn>=21.2.0       # WSGI server for production
+
 # Optional dependencies for future features
 # pydantic>=2.0.0        # Enhanced data validation
 # python-docx>=1.1.0     # DOCX generation

@@ -78,6 +78,12 @@ def validate_assessment(assessment_id: str):
         summary_table = """Assessment	Category	Feature Type	Location	Active Fault	Liquefaction	Landslide	Tsunami	Nearest Active Volcano	Lahar	Pyroclastic Flow	Lava Flow
 17810	Earthquake	Polygon	123.973821,12.900733	Safe; Approximately 16.9 kilometers south of the Legaspi Lineament: Offshore Extension 1 and approximately 55.1 kilometers east of the Panganiran Fault	Safe	Safe	Safe	--	--	--	--"""
 
+    elif assessment_id == "24920":
+        # Combined earthquake + volcano (Isarog 44km + Labo PAV 33km, all hazards Safe)
+        summary_table = """Assessment	Category	Feature Type	Location	Active Fault	Liquefaction	Landslide	Tsunami	Nearest Active Volcano	Nearest Potentially Active Volcano	Fissure	Lahar	Pyroclastic Flow	Base Surge	Lava Flow	Ballistic Projectile	Volcanic Tsunami
+24920	Earthquake	Polygon	123.080735,13.923128	Safe; Approximately 40.9 kilometers northeast of the Legaspi Lineament	--	Safe	--	--	--	--	--	--	--	--	--	--
+24921	Volcano	Polygon	123.082334,13.92292	--	--	--	--	Approximately 44 kilometers northwest of Isarog Volcano	Approximately 33 kilometers east of Labo Volcano	--	Safe	Safe	--	Safe	--	--"""
+
     else:
         print(f"✗ No test data for assessment {assessment_id}")
         return
@@ -177,3 +183,4 @@ if __name__ == '__main__':
 
     assessment_id = sys.argv[1]
     validate_assessment(assessment_id)
+

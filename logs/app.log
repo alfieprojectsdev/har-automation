@@ -1,0 +1,12 @@
+[2025-12-23 23:44:28,202] ERROR in __init__: CSRF Error: 400 Bad Request: The CSRF session token is missing.
+[2025-12-23 23:44:28,202] ERROR in __init__: Session keys: []
+[2025-12-23 23:44:28,202] ERROR in __init__: Request headers: {'Host': 'localhost:5000', 'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-Csrftoken': 'ImQyNTAwNzY0Y2JkMGE2Y2JjYzhmYmU5Zjc2M2ZhYTM0ZTI2ZWEyZDgi.aUq43A.g7DnOeKm1HZc055gGZRNqx_s-b8', 'X-Csrf-Token': 'ImQyNTAwNzY0Y2JkMGE2Y2JjYzhmYmU5Zjc2M2ZhYTM0ZTI2ZWEyZDgi.aUq43A.g7DnOeKm1HZc055gGZRNqx_s-b8', 'Referer': 'http://localhost:5000', 'Content-Length': '324'}
+[2025-12-23 23:44:28,202] ERROR in __init__: Cookies: ImmutableMultiDict([])
+[2025-12-23 23:44:58,127] ERROR in __init__: CSRF Error: 400 Bad Request: The CSRF session token is missing.
+[2025-12-23 23:44:58,127] ERROR in __init__: Session keys: []
+[2025-12-23 23:44:58,127] ERROR in __init__: Request headers: {'Host': 'localhost:5000', 'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-Csrftoken': 'IjFiM2FjODgzN2Q2NzYzNGQ3NGQwM2I3MWEwYzg1YTk2OWFkY2Y0OTAi.aUq4-g.WaiKyjIHGY2Fk6SomKck7xMHduk', 'X-Csrf-Token': 'IjFiM2FjODgzN2Q2NzYzNGQ3NGQwM2I3MWEwYzg1YTk2OWFkY2Y0OTAi.aUq4-g.WaiKyjIHGY2Fk6SomKck7xMHduk', 'Referer': 'http://localhost:5000', 'Content-Length': '324'}
+[2025-12-23 23:44:58,127] ERROR in __init__: Cookies: ImmutableMultiDict([])
+[2025-12-23 23:45:19,964] ERROR in __init__: CSRF Error: 400 Bad Request: The CSRF session token is missing.
+[2025-12-23 23:45:19,964] ERROR in __init__: Session keys: []
+[2025-12-23 23:45:19,964] ERROR in __init__: Request headers: {'Host': 'localhost:5000', 'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-Csrftoken': 'IjI4NTYzYzkyN2QxM2EzNmFkMTY2MGM4NDYwYjhhNGYxZjkxNjRkN2Ii.aUq5Dw.Xse_L_kkcr01jmHO-5Cuh6ndF0Y', 'X-Csrf-Token': 'IjI4NTYzYzkyN2QxM2EzNmFkMTY2MGM4NDYwYjhhNGYxZjkxNjRkN2Ii.aUq5Dw.Xse_L_kkcr01jmHO-5Cuh6ndF0Y', 'Referer': 'http://localhost:5000', 'Content-Length': '324'}
+[2025-12-23 23:45:19,964] ERROR in __init__: Cookies: ImmutableMultiDict([])

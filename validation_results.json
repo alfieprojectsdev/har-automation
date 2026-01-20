@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total": 4,
+    "passed": 1,
+    "failed": 3
+  },
+  "results": [
+    {
+      "id": "24918",
+      "name": "Test Case 1: Basic Earthquake (HAS-24918)",
+      "category": "Earthquake",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "18223",
+      "name": "Test Case 2: EIL Susceptible (HAS-18223)",
+      "category": "Earthquake",
+      "passed": false,
+      "issues": [
+        "Expected 3 sections, got 2"
+      ],
+      "generated_text": "EARTHQUAKE HAZARD ASSESSMENT\n\nAll hazard assessments are based on the latest available hazard maps and on the location indicated in the vicinity map provided.\n\nEXPLANATION AND RECOMMENDATION\n\n1. Ground Rupture: Safe; Approximately 40.9 km northeast of Legaspi Lineament. Ground rupture hazard assessment is the distance to the nearest known active fault. The recommended buffer zone, or Zone of Avoidance, against ground rupture hazard is at least 5 meters on both sides of the active fault or from its zone of deformation.\n\n2. Earthquake-Induced Landslide: Susceptible. Avoidance is recommended for sites with earthquake-induced landslide hazard unless appropriate engineering interventions are in place.\n\nThis assessment supersedes all previous reports issued for this site.\n\nFor more information on geohazards in the Philippines, please visit HazardHunterPH (https://hazardhunter.georisk.gov.ph/) and GeoAnalyticsPH (https://geoanalytics.georisk.gov.ph/).\n"
+    },
+    {
+      "id": "17810",
+      "name": "Test Case 3: Volcano All Safe (HAS-17810)",
+      "category": "Volcano",
+      "passed": false,
+      "issues": [
+        "Expected 0 sections, got 1",
+        "Missing 4 expected phrase(s)"
+      ],
+      "generated_text": "VOLCANO HAZARD ASSESSMENT\n\nAll hazard assessments are based on the latest available hazard maps and on the location indicated in the vicinity map provided.\n\nEXPLANATION AND RECOMMENDATION\n\n1. PDZ (Permanent Danger Zone): Outside PDZ; The site is outside the 4-kilometer radius Permanent Danger Zone. The Permanent Danger Zone (PDZ) is a zone that can always be affected by small-scale eruptions of Bulusan Volcano. Human settlement is not recommended within the PDZ. The site is outside the 4-kilometer radius Permanent Danger Zone of the volcano.\n\n2. Bulusan Volcano is the nearest identified active volcano to the site.\n\n3. In case of future eruptions of Bulusan Volcano and other nearby volcanoes, the site/s may be affected by tephra fall/ ashfall depending on the height of the eruption plume and prevailing wind direction at the time of eruption. Generally, tephra fall/ ashfall is thicker near the eruption center and thins away from the volcano. Ash can cause widespread infrastructural, agricultural, and property damages, and negative health impacts.\n\nThis assessment supersedes all previous reports issued for this site.\n\nFor more information on geohazards in the Philippines, please visit HazardHunterPH (https://hazardhunter.georisk.gov.ph/) and GeoAnalyticsPH (https://geoanalytics.georisk.gov.ph/).\n",
+      "missing_phrases": [
+        "Considering the distance of the site",
+        "pyroclastic density currents",
+        "lava flows",
+        "ballistic projectiles"
+      ]
+    },
+    {
+      "id": "14157",
+      "name": "Test Case 4: Volcano Mixed Hazards (HAS-14157)",
+      "category": "Volcano",
+      "passed": false,
+      "issues": [
+        "Expected 2 sections, got 3"
+      ],
+      "generated_text": "VOLCANO HAZARD ASSESSMENT\n\nAll hazard assessments are based on the latest available hazard maps and on the location indicated in the vicinity map provided.\n\nEXPLANATION AND RECOMMENDATION\n\n1. PDZ (Permanent Danger Zone): Outside PDZ; The site is outside the 4-kilometer radius Permanent Danger Zone. The Permanent Danger Zone (PDZ) is a zone that can always be affected by small-scale eruptions of Kanlaon Volcano. Human settlement is not recommended within the PDZ. The site is outside the 4-kilometer radius Permanent Danger Zone of the volcano.\n\n2. Lahar: Highly prone. Lahars are rapidly flowing mixtures of volcanic sediment and water in rivers that can be triggered by prolonged and intense rainfall. Lahars can cause extensive damage to communities, infrastructure, and the environment, and lead to long-term flooding and sedimentation in river systems. Lahar threat to people's lives can be addressed by 1) observing or implementing legal easement adjacent to river banks, as provided in existing laws, ordinances and land-use plans, and 2) community preparedness and evacuation plan. At-risk communities must learn to evacuate themselves when lahar threats are imminent.\n\n3. Pyroclastic Density Current: Prone; Within buffer zone. Pyroclastic Density Currents (PDCs), such as flows, surges and base surges, are turbulent, fast-moving mixtures of volcanic fragments and gas that sweep down/away from an erupting volcano. PDCs can cause loss of life due to burning, impact force, abrasion, asphyxiation, and extreme physical injuries, and damage to agriculture, livestock, and properties. Avoidance is recommended for site/sites that may potentially be affected by PDCs and lava flows.\n\n4. Kanlaon Volcano is the nearest identified active volcano to the site.\n\n5. In case of future eruptions of Kanlaon Volcano and other nearby volcanoes, the site/s may be affected by tephra fall/ ashfall depending on the height of the eruption plume and prevailing wind direction at the time of eruption. Generally, tephra fall/ ashfall is thicker near the eruption center and thins away from the volcano. Ash can cause widespread infrastructural, agricultural, and property damages, and negative health impacts.\n\n6. Avoidance is recommended for site/sites that may potentially be affected by PDCs and lava flows.\n\nThis assessment supersedes all previous reports issued for this site.\n\nFor more information on geohazards in the Philippines, please visit HazardHunterPH (https://hazardhunter.georisk.gov.ph/) and GeoAnalyticsPH (https://geoanalytics.georisk.gov.ph/).\n"
+    }
+  ]
+}

@@ -400,6 +400,45 @@ Special statement for volcanoes classified as PAV (e.g., Corregidor):
 
 ## Testing
 
+### API Endpoint Test
+
+Test the Flask API endpoint with a simple automated script:
+
+```bash
+# Run the API test script
+python3 test_api.py
+```
+
+The test script automatically:
+1. Starts Flask development server in the background
+2. Waits for server to be ready
+3. Sends a POST request to `/api/generate` with sample OHAS data
+4. Displays the generated HAR text
+5. Cleanly shuts down the server
+
+Sample output:
+```
+HAR Generation API Test Script
+============================================================
+
+✓ Server is ready!
+✓ API request successful!
+
+HAR Text:
+------------------------------------------------------------
+EARTHQUAKE HAZARD ASSESSMENT
+
+All hazard assessments are based on the latest available
+hazard maps and on the location indicated in the vicinity
+map provided.
+...
+------------------------------------------------------------
+
+✓ All tests passed!
+```
+
+### Unit Tests
+
 ```bash
 # Run unit tests (when implemented)
 pytest tests/
@@ -485,15 +524,54 @@ The pipeline uses `docs/hazard_rules_schema_refined.json` which contains:
 
 See `docs/SCHEMA_STRUCTURE_RATIONALE.md` for detailed rationale.
 
+## Web API
+
+The project includes a Flask web application with an API endpoint for HAR generation:
+
+```bash
+# Start the Flask development server
+python3 run.py
+
+# Or use Gunicorn for production
+gunicorn -w 4 -b 0.0.0.0:5000 wsgi:app
+```
+
+API endpoint: `POST /api/generate`
+
+Example request:
+```bash
+curl -X POST http://localhost:5000/api/generate \
+  -H "Content-Type: application/json" \
+  -d '{
+    "summary_table": "Assessment\tCategory\tFeature Type\tLocation\tActive Fault\tLiquefaction\n24918\tEarthquake\tPolygon\t120.989669,14.537869\tSafe; Approximately 7.1 km west of Valley Fault System\tHigh Potential"
+  }'
+```
+
+Response:
+```json
+{
+  "success": true,
+  "hars": [
+    {
+      "assessment_id": 24918,
+      "category": "Earthquake",
+      "har_text": "EARTHQUAKE HAZARD ASSESSMENT\n\n..."
+    }
+  ]
+}
+```
+
+See `test_api.py` for a complete test example.
+
 ## Future Enhancements
 
 - [ ] HTML table parsing (from OHAS clipboard)
 - [ ] PDF generation with proper formatting
-- [ ] Web API (Flask/FastAPI) for HAR generation
 - [ ] Direct OHAS database integration
 - [ ] Multi-language support (Filipino translations)
 - [ ] Batch processing for multiple assessments
 - [ ] Visualization with hazard maps
+- [ ] Web UI for interactive HAR generation
 
 ## Related Documentation
 
